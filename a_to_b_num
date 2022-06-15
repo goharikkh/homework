@@ -1,0 +1,15 @@
+
+
+def a_to_b_num(a,b):
+  '''a_to_b_num(a,b) function returns sum of integer numbers from a+1 to b-1 '''
+
+  sum=0
+  
+  while a<b-1:
+  
+    a+=1
+    
+    sum+=a
+    
+  return sum
+
