@@ -1,5 +1,5 @@
 def reverse(data):
-    ''' reverse(data) function returns reversed list'''
+    # reverse(data) function returns reversed list
     j = len(data) - 1
     i = 0
     while i < j:
@@ -9,7 +9,7 @@ def reverse(data):
         i += 1
         j -= 1
     return data
-lst=[1,2,3,4,5]
+
+
+lst = [1, 2, 3, 4, 5]
 print(reverse(lst))
-
-
